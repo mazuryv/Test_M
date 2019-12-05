@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asmv1:assemblyIdentity name="Test_M.exe" version="1.0.0.0" publicKeyToken="27e2e0161b130f9e" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Test_M" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Test_M.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet class="System.Security.PermissionSet" version="1" ID="Custom" SameSite="site">
+          <IPermission class="System.Security.Permissions.EnvironmentPermission, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Read="USERNAME" />
+          <IPermission class="System.Security.Permissions.FileDialogPermission, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" />
+          <IPermission class="System.Security.Permissions.IsolatedStorageFilePermission, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Allowed="AssemblyIsolationByUser" UserQuota="9223372036854775807" Expiry="9223372036854775807" Permanent="True" />
+          <IPermission class="System.Security.Permissions.ReflectionPermission, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Flags="ReflectionEmit" />
+          <IPermission class="System.Security.Permissions.SecurityPermission, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Flags="Assertion, Execution, BindingRedirects" />
+          <IPermission class="System.Security.Permissions.UIPermission, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" />
+          <IPermission class="System.Net.DnsPermission, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" />
+          <IPermission class="System.Drawing.Printing.PrintingPermission, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" version="1" Level="DefaultPrinting" />
+        </PermissionSet>
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="stdole" version="7.0.3300.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Test_M.exe" size="929792">
+      <assemblyIdentity name="Test_M" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>5C9MrbS8umR4mve6zzbCdlDS+bw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Test_M.exe.config" size="74">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>XshrqJbLMwJ7FM1jR7BQZyNqypc=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=SERVER\User" issuerKeyHash="32f002b6d51e741d4e8789413ba34d7c412895e2" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>1zsipRV87UhXShNMkeknpt4s9nA=</DigestValue></Reference></SignedInfo><SignatureValue>JUotOVqTC+pHHw3ckO2RYwe7YfZVgKWZ9+w72p969BOjqMKuJpfUpDeSlf8+qXvjx/yydpeCC23XCJlNtKTIxRGzr4VI5Bi6bWRQi5+mD2RDIhCiFdIvZLmSr9So4rxhhiKSM5jvRT+6+j+/sSzAdTq899qNxrtzakI0O+N6RRc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>3NYcS4XVJH9qvoB+EH5y5sQKUoDzEC3Jxb6WZwKbSpCiTxw70Ifo2v+OVK3bC7fqc3BB9yXGqyx8JF6kOAf7VUHuKUHnc2tsI0wtoxKUoGl5xsr1+0lZ33jnlKlehFsgc36YSCZkhkiBv5muHUIqF5gP+7DFTDbPTgRNzMldPxM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="70f62cdea627e9914c134a5748ed7c15a5223bd7" Description="" Url=""><as:assemblyIdentity name="Test_M.exe" version="1.0.0.0" publicKeyToken="27e2e0161b130f9e" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=SERVER\User</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>Z2YYLr6VFqaXW+lZZtCG+i1Feds=</DigestValue></Reference></SignedInfo><SignatureValue>ufaLMUpv+NPUKmgIzKZqY1EVFyJaKEuRI5vK68zodXJ5Fg6qFHUb4pS6U/9HvYVUyNDbpU7FlcOfW4L8AEQYP23iNRac5qkGbxwkw5htoGUqQi/q3+LYvA6Q5cB4deVTvqNtqbP0uS2rciw1skxT8X/nqboYMhQskRe8ExKwpMA=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>3NYcS4XVJH9qvoB+EH5y5sQKUoDzEC3Jxb6WZwKbSpCiTxw70Ifo2v+OVK3bC7fqc3BB9yXGqyx8JF6kOAf7VUHuKUHnc2tsI0wtoxKUoGl5xsr1+0lZ33jnlKlehFsgc36YSCZkhkiBv5muHUIqF5gP+7DFTDbPTgRNzMldPxM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBvTCCASqgAwIBAgIQLKA+pw0qbK5HhUcp/qbp7zAJBgUrDgMCHQUAMCExHzAdBgNVBAMeFgBTAEUAUgBWAEUAUgBcAFUAcwBlAHIwHhcNMDkwNDI3MDU0MTMwWhcNMTAwNDI3MTE0MTMwWjAhMR8wHQYDVQQDHhYAUwBFAFIAVgBFAFIAXABVAHMAZQByMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDc1hxLhdUkf2q+gH4QfnLmxApSgPMQLcnFvpZnAptKkKJPHDvQh+ja/45UrdsLt+pzcEH3JcarLHwkXqQ4B/tVQe4pQedza2wjTC2jEpSgaXnGyvX7SVnfeOeUqV6EWyBzfphIJmSGSIG/ma4dQioXmA/7sMVMNs9OBE3MyV0/EwIDAQABMAkGBSsOAwIdBQADgYEADXVeKHqs/D4pdNkFRA87z1uAaxgauW1to4sO2XvrdFbbbhPyefEAXTozcowJ3JosSFfPQgSmtoplvx7IE0pkKxlYnDECDDx7CY+1ZTLtf+CewX4RPet+uCX++/qfjHC0f9eoDHIzmUlC5+fh76RW72sIh9sekf56H3okXzpvAbQ=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
